@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Images from './componenets/Images'
+import Images from './componenets/Images';
 
 class App extends Component {
   render() {
@@ -15,9 +15,7 @@ class App extends Component {
                   Infinite Scroll Unsplash Code Challenge
                 </h1>
               </div>
-              <div className="images">
-                <Images />
-              </div>
+              <Images />
             </div>
           </div>
         </div>
